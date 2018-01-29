@@ -4,7 +4,7 @@
 			<div class="layui-row">
 				<div class="layui-col-md12">
 					 &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
-    <?php _e('Powered by Typecho，蜀ICP备14021561号-1'); ?>.
+    <?php _e('Powered by Typecho，蜀ICP备14021561号-1'); ?> | Theme by <a href="https://www.xiaoz.me/archives/9946" target = "_blank" title = "Typecho简洁风格主题EchoTheme">EchoTheme</a>
 				</div>
 			</div>
 		</div>
