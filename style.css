@@ -1,0 +1,181 @@
+body{
+	background-image: url(bg.jpg);
+}
+body a{
+	color:#01AAED;
+}
+body a:hover{
+	color:#5FB878;
+}
+.top{
+	position:fixed;
+	right:80px;
+	bottom:80px;
+	z-index:99;
+}
+.top i{
+	font-size: 50px; color: #1E9FFF;
+}
+.header{
+	margin:0;
+	padding:0;
+	background-color: #393D49;
+}
+.logo{
+	color:#FFFFFF;
+	padding-top:10px;
+}
+.logo h1 a{
+	color:#FFFFFF;
+}
+.menu{
+	
+}
+.post{
+	/*border:1px solid #EAEAEA;*/
+	box-shadow: 1px 1px 1px #888888;
+	margin-bottom:20px;
+	padding:20px;
+}
+.post a:hover{
+	/*color:#FF5722;*/
+}
+.post-title{
+	padding-bottom:10px;
+}
+
+.post-meta li{
+	display:inline;
+	margin-right:14px;
+}
+.post-meta a{
+	color:#494949;
+}
+.more a{
+	
+}
+#nav_menu a{
+	color:#FFFFFF;
+}
+.search{
+	margin-top:10px;
+}
+.content{
+	margin-top:40px;
+	margin-bottom:80px;
+}
+.footer{
+	
+	background-color: #2F4056;
+	color:#FFFFFF;
+	padding:14px;
+	/*position:fixed;
+	bottom:0;*/
+}
+.footer a{
+	color:#c2c2c2;
+}
+.post{
+	background-color:#FFFFFF;
+}
+.post p{
+	padding:10px;
+	padding-left:0;
+}
+.post-content pre{
+	margin-bottom:6px;
+}
+.post-content p code{
+	background-color:#F0F0F0;
+	color:#C13;
+	padding:2px;
+	padding-left:4px;
+	padding-right:4px;
+}
+.post-content blockquote{
+	border-left:3px solid #5FB878;
+	background-color:#F0F0F0;
+	padding-left:6px;
+}
+.post-content h3{
+	font-size:18px;
+}
+.post-content ul{
+	margin-bottom:6px;
+	margin-top:6px;
+}
+.post-content ul li{
+	list-style-type:circle;
+	margin-left:1.5em;
+}
+.sidebar{
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 1px #888888;
+	/*border:1px solid #D1D1D1;;*/
+	
+	float:right;
+	
+	padding:14px;
+}
+.sidebar h3{
+	font-size:18px;
+	border-left:3px solid #5FB878;
+	background-color:#F0F0F0;
+	padding:6px;
+	padding-left:8px;
+}
+.sidebar ul{
+	margin-top:10px;
+}
+.sidebar li{
+	padding:6px;
+	padding-left:8px;
+	line-height:10px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.sidebar a{
+	color:#666666;
+}
+.sidebar a:hover{
+	/*color:#FF5722;*/
+}
+
+.page-navigator li{
+	display:inline;
+	padding:10px;
+	border:1px solid #e2e2e2;
+	margin-right:6px;
+	background-color:#F0F0F0;
+}
+
+.page-navigator a{
+	
+}
+#comments p{
+	margin-top:8px;
+}
+.comment-list{
+	margin-top:12px;
+	border-bottom:1px solid #e2e2e2;
+	margin-bottom:10px;
+}
+.comment-author img{
+	border-radius:32px;
+	float:left;
+}
+.comment-author cite{
+	margin-left:18px;
+	vertical-align: middle;
+	margin-top:10px;
+}
+.comment-meta{
+	float:right;
+}
+.comment-content{
+	margin-top:20px;
+}
+.comment-reply{
+	/*float:left;*/
+}
