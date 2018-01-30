@@ -2,9 +2,9 @@
 /**
 * 这是xiaoz开发的typecho主题
 * 
-* @package EchoLay
+* @package EchoTheme
 * @author xiaoz
-* @version 0.1
+* @version 0.9
 * @link https://www.xiaoz.me
 */
 	if (!defined('__TYPECHO_ROOT_DIR__')) exit;
