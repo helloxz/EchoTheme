@@ -12,7 +12,7 @@
 	<meta name="author" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('layui/css/layui.css'); ?>" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css?v=0.3'); ?>" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css?v=0.31'); ?>" />
 	<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
 	<script src = "<?php $this->options->themeUrl('layui/layui.js'); ?>"></script>
 	<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -39,9 +39,9 @@
 				<div class="layui-col-md12">
 					<div class = "layui-col-md2 logo">
 						<h1><a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></h1>
-						<p class="description"><?php $this->options->description() ?></p>
+						<!--<p class="description"><?php $this->options->description() ?></p>-->
 					</div>
-					<div class = "layui-col-md7">
+					<div class = "layui-col-md7 layui-hide-xs">
 						<ul class="layui-nav" lay-filter="">
 						    <!--<li class="layui-nav-item"><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>-->
 						    <?php $this->widget('Widget_Metas_Category_List')->parse('<li class = "layui-nav-item"><a href="{permalink}">{name}</a></li>'); ?>
