@@ -92,6 +92,16 @@ body a:hover{
 	padding-left:4px;
 	padding-right:4px;
 }
+.post-content li code{
+	background-color:#F0F0F0;
+	color:#C13;
+	padding:2px;
+	padding-left:4px;
+	padding-right:4px;
+}
+.post-content ul li{
+	line-height:20px;
+}
 .post-content blockquote{
 	border-left:3px solid #5FB878;
 	background-color:#F0F0F0;
@@ -99,14 +109,15 @@ body a:hover{
 }
 .post-content h3{
 	font-size:18px;
+	font-weight:bold;
 }
 .post-content ul{
-	margin-bottom:6px;
-	margin-top:6px;
+	margin-bottom:8px;
+	margin-top:8px;
 }
 .post-content ul li{
-	list-style-type:circle;
-	margin-left:1.5em;
+	list-style-type:disc;
+	margin-left:2em;
 }
 .post-content img{
 	max-width: 100%;
@@ -182,4 +193,10 @@ body a:hover{
 }
 .comment-reply{
 	/*float:left;*/
+}
+.error-page h2{
+	text-align:center;
+}
+.error-page p{
+	text-align:center;
 }
