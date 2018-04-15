@@ -1,6 +1,6 @@
 <?php
 /**
-* 这是xiaoz开发的typecho主题
+* 使用LayUI开发的Typecho简洁主题。
 * 
 * @package EchoTheme
 * @author xiaoz

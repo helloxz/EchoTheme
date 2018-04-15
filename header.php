@@ -19,20 +19,12 @@
 	<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 	<?php $this->header(); ?>
 	<!--百度统计-->
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?78cacc8bb25aa108d902444e58140ad0";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
+	
 	<!--百度统计END-->
 </head>
 <body>
 	<div id="top"></div>
-	<div class="top"><a href="#top" title = "返回顶部"><i class="layui-icon">&#xe604;</i> </a></div>
+	<div class="top"><a href="javascript:;" title = "返回顶部" onclick = "retop()"><i class="layui-icon">&#xe604;</i> </a></div>
 	<!--header-->
 	<div class = "header">
 		<div class="layui-container">

@@ -10,6 +10,7 @@
 		</div>
 	</div>
 	<!--foooter end-->
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 	<script>
 	//注意：导航 依赖 element 模块，否则无法进行功能性操作
 	layui.use('element', function(){
@@ -17,7 +18,10 @@
 	  
 	  //…
 	});
-	
+	//返回顶部
+	function retop(){
+		$("html,body").animate({scrollTop: '0px'}, 600);
+	}
 	</script>
 	<script>hljs.initHighlightingOnLoad();</script>
 </body>
