@@ -12,9 +12,9 @@
 	<meta name="author" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="<?php $this->options->themeUrl('favicon.ico'); ?>" type="image/x-icon" />
+	<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('layui/css/layui.css'); ?>" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css?v=0.31'); ?>" />
-	<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
 	<script src = "<?php $this->options->themeUrl('layui/layui.js'); ?>"></script>
 	<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 	<?php $this->header(); ?>

@@ -181,6 +181,13 @@ body a:hover{
 .page-navigator a{
 	
 }
+#comments{
+	border-radius:2px;
+	background-color:#FFFFFF;
+	padding:1em;
+	box-shadow: 1px 1px 1px #888888;
+	margin-bottom:2em;
+}
 #comments p{
 	margin-top:8px;
 }
@@ -197,19 +204,47 @@ body a:hover{
 	margin-left:18px;
 	vertical-align: middle;
 	margin-top:10px;
+	font-weight:bold;
+	color:#3C3C3C;
 }
 .comment-meta{
-	float:right;
+	margin-left:48px;
+}
+.comment-meta a{
+	color:#707070;
 }
 .comment-content{
-	margin-top:20px;
+	margin-top:10px;
+	margin-left:48px;
+	color:#383838;
+	/*border:1px solid #c2c2c2;
+	background-color:#f2f2f2;
+	border-radius:3px;*/
 }
 .comment-reply{
 	/*float:left;*/
+	margin-left:48px;
+	margin-top:0.5em;
+	margin-bottom:1em;
+}
+.comment-reply a{
+	border-radius:3px;
+	background-color:#19a9d5;
+	color:#FFFFFF;
+	padding:3px;
+	padding-left:6px;
+	padding-right:6px;
+}
+.comment-reply a:hover {
+    color:#FFFFFF;
 }
 .error-page h2{
 	text-align:center;
 }
 .error-page p{
 	text-align:center;
+}
+.shell .bash{
+    color: #998;
+    font-style: italic;
 }
