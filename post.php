@@ -17,12 +17,12 @@
 				        <div class="post-content" itemprop="articleBody">
 				            <?php $this->content(); ?>
 				        </div>
-				        <p itemprop="keywords" class="tags"><?php _e('<i class="layui-icon">&#xe61d;</i>  '); ?><?php $this->tags(', ', true, 'none'); ?></p>
+				        <p itemprop="keywords" class="tags">标签： <?php $this->tags(' ', true, 'none'); ?></p>
 				    </article>
 				    <?php $this->need('comments.php'); ?>
 				    <ul class="post-near">
-				        <li>上一篇: <?php $this->thePrev('%s','没有了'); ?></li>
-				        <li>下一篇: <?php $this->theNext('%s','没有了'); ?></li>
+				        <li class = "up">上一篇: <?php $this->thePrev('%s','没有了'); ?></li>
+				        <li class = "down">下一篇: <?php $this->theNext('%s','没有了'); ?></li>
 				    </ul>
 				</div>
 			</div>

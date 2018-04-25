@@ -9,8 +9,8 @@ body a:hover{
 }
 .top{
 	position:fixed;
-	right:80px;
-	bottom:80px;
+	right:40px;
+	bottom:40px;
 	z-index:99;
 }
 .top i{
@@ -43,10 +43,14 @@ body a:hover{
 .post-title{
 	padding-bottom:10px;
 }
-
+.post-meta{
+	font-size:12px;
+	margin-bottom:1em;
+}
 .post-meta li{
 	display:inline;
 	margin-right:14px;
+	color:#636363;
 }
 .post-meta a{
 	color:#494949;
@@ -67,7 +71,7 @@ body a:hover{
 .footer{
 	
 	background-color: #2F4056;
-	color:#FFFFFF;
+	color:#c2c2c2;
 	padding:14px;
 	/*position:fixed;
 	bottom:0;*/
@@ -111,6 +115,10 @@ body a:hover{
 	padding:2px;
 	padding-left:4px;
 	padding-right:4px;
+}
+.post-content pre code {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .post-content ul li{
 	line-height:20px;
@@ -175,7 +183,7 @@ body a:hover{
 	padding:10px;
 	border:1px solid #e2e2e2;
 	margin-right:6px;
-	background-color:#F0F0F0;
+	background-color:#FFFFFF;
 }
 
 .page-navigator a{
@@ -238,6 +246,9 @@ body a:hover{
 .comment-reply a:hover {
     color:#FFFFFF;
 }
+.comment-list .comment-child{
+	margin-left:3.5em;
+}
 .error-page h2{
 	text-align:center;
 }
@@ -247,4 +258,36 @@ body a:hover{
 .shell .bash{
     color: #998;
     font-style: italic;
+}
+
+.post-near li{
+	width:48%;
+	color:#505050;
+	
+}
+
+.post-near .up{
+	float:left;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.post-near .down{
+	float:right;
+	text-align:right;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.post .tags{
+	margin-top:1.5em;
+	color:#505050;
+}
+.tags a{
+	border-radius:5px;
+	background-color:#F0F0F0;
+	color:#505050;
+	padding:0.4em;
+	padding-left:0.6em;
+	padding-right:0.6em;
 }

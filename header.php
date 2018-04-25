@@ -30,10 +30,16 @@
 		<div class="layui-container">
 			<div class="layui-row">
 				<div class="layui-col-md12">
-					<div class = "layui-col-md2 logo">
+					<div class = "layui-col-md2 logo layui-hide-xs">
 						<h1><a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></h1>
 						<!--<p class="description"><?php $this->options->description() ?></p>-->
 					</div>
+					<!--手机访问-->
+					<div class = "layui-col-md12 logo layui-hide-md" style = "text-align:center;">
+						<h1><a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></h1>
+						<!--<p class="description"><?php $this->options->description() ?></p>-->
+					</div>
+					<!--手机访问END-->
 					<div class = "layui-col-md7 layui-hide-xs">
 						<ul class="layui-nav" lay-filter="">
 						    <!--<li class="layui-nav-item"><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>-->
@@ -41,7 +47,7 @@
 						    <?php $this->widget('Widget_Contents_Page_List')->parse('<li class = "layui-nav-item"><a href="{permalink}">{title}</a></li>'); ?>
 						</ul>
 					</div>
-					<div class="layui-col-md3 search">
+					<div class="layui-col-md3 search layui-hide-xs">
 						<form method="post" action="" class="layui-form">
 						    <div><input type="text" name="s" class="layui-input" placeholder="回车搜索" size = "20" /></div>
 						</form>
