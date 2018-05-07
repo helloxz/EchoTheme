@@ -15,7 +15,7 @@
 	<div class="layui-container content">
 		<div class="layui-row">
 			<!--post-->
-			<div class="layui-col-md8">
+			<div class="layui-col-md9 layui-col-space30">
 				<div>
 					<?php while($this->next()): ?>
 					    <article class="post">

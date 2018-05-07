@@ -5,7 +5,7 @@
 	<div class="layui-container content">
 		<div class="layui-row">
 			<!--post-->
-			<div class="layui-col-md8">
+			<div class="layui-col-md9 layui-col-space30">
 				<div>
 					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 				        <h1 class="post-title" itemprop="name headline"><a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
